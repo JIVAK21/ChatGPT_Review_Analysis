@@ -1,152 +1,50 @@
-📊 ChatGPT Reviews Analysis
-📌 Project Overview
-
-This project analyzes 196,000+ customer reviews of ChatGPT to understand overall satisfaction, extract key insights, and identify areas for improvement.
-
-The analysis combines ratings distribution (1–5 stars) with sentiment analysis on review text to provide both quantitative and qualitative insights.
-
-🎯 Objectives
-
-Measure overall customer satisfaction using ratings.
-
-Perform sentiment analysis (Positive, Neutral, Negative) on written reviews.
-
-Identify recurring themes in positive and negative feedback.
-
-Provide actionable business recommendations based on insights.
-
-🗂️ Dataset
-
-Source: ChatGPT Reviews Dataset (196,727 reviews)
-
-Columns:
-
-Review Id → Unique identifier for each review
-
-Review → Text content of the review
-
-Ratings → Rating score from 1 (lowest) to 5 (highest)
-
-Review Date → Date the review was posted
-
-⚙️ Methodology
-
-Data Cleaning
-
-Removed null values and duplicates.
-
-Processed review text for sentiment analysis.
-
-Exploratory Data Analysis (EDA)
-
-Distribution of ratings (1–5 stars).
-
-Time-based trends in reviews.
-
-Sentiment Analysis
-
-Used TextBlob to calculate polarity scores.
-
-Categorized reviews as Positive, Neutral, or Negative.
-
-Visualization
-
-Plots for ratings distribution.
-
-Pie chart for sentiment breakdown.
-
-WordCloud for most common positive/negative words.
-
-📊 Key Results
-⭐ Ratings Distribution
-
-5-star: 41.22%
-
-4-star: 23.11%
-
-3-star: 15.33%
-
-2-star: 7.89%
-
-1-star: 12.45%
-
-✅ 64% of reviews are positive (4–5 stars).
-⚠️ 20% of reviews are negative (1–2 stars).
-
-😊 Sentiment Distribution
-
-Positive: 55.67%
-
-Neutral: 23.45%
-
-Negative: 20.88%
-
-🔑 Insights
-
-Users love creativity, ease of use, and usefulness.
-
-Pain points include accuracy issues, slow performance, and pricing concerns.
-
-Neutral reviews often request more features or improvements.
-
-📌 Recommendations
-
-Improve accuracy & reliability of responses.
-
-Enhance speed & performance to reduce frustration.
-
-Review pricing strategies and provide more value in premium plans.
-
-Strengthen customer support & onboarding.
-
-🛠️ Tech Stack
-
-Python (pandas, numpy, matplotlib, seaborn, textblob, wordcloud)
-
-Jupyter Notebook for analysis and visualization
-
-📂 Repository Structure
-ChatGPT_Reviews_Analysis/
-│── data/
-│   └── chatgpt_reviews.csv        # Dataset
-│── notebooks/
-│   └── ChatGPT_Reviews_Analysis.ipynb   # Main notebook
-│── outputs/
-│   ├── charts/                    # Visualizations
-│   └── wordclouds/                # WordClouds
-│── README.md                      # Project documentation
-│── requirements.txt               # Dependencies
-
-🚀 How to Run the Project
-
-Clone the repository:
-
-git clone https://github.com/your-username/ChatGPT_Reviews_Analysis.git
-cd ChatGPT_Reviews_Analysis
-
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Open Jupyter Notebook:
-
-jupyter notebook
-
-
-Run the notebook:
-
-Navigate to ChatGPT_Reviews_Analysis.ipynb
-
-Execute the cells step by step
-
-📢 Conclusion
-
-This analysis of 196,000+ reviews highlights both strengths and weaknesses of ChatGPT.
-By addressing accuracy, performance, and pricing concerns while continuing to enhance creativity and usability, ChatGPT can further improve customer trust and adoption.
-
-✨ Author: Jivak Dongare
-📧 Email: jivak0059@gmail.com
-
-🔗 LinkedIn: https://www.linkedin.com/in/jivak-dongare-553315200/
+# ChatGPT Reviews Sentiment & Trend Analysis
+
+## Overview
+This project analyzes ~196,000 real-world ChatGPT user reviews to understand customer sentiment, satisfaction trends, and key drivers of positive and negative feedback. The goal is to translate raw review data into actionable product and business insights.
+
+## Objectives
+- Understand overall user sentiment toward ChatGPT
+- Identify recurring themes in positive and negative reviews
+- Analyze rating distributions and sentiment trends
+- Provide insight-driven recommendations for product improvement
+
+## Dataset
+- ~196K user reviews
+- Fields include ratings, review text, and metadata
+- Real-world, unstructured text data
+
+## Tools & Technologies
+- Python
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Jupyter Notebook
+
+## Analysis Performed
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Rating distribution analysis
+- Sentiment classification (positive, neutral, negative)
+- Visualization of sentiment and rating trends
+
+## Key Insights
+- Majority of users expressed positive sentiment, indicating strong overall satisfaction
+- Negative reviews frequently mentioned issues related to response accuracy, latency, and pricing
+- Neutral sentiment often reflected feature requests or mixed experiences
+- Clear correlation observed between star ratings and sentiment polarity
+
+## Business Recommendations
+- Improve response consistency for complex queries
+- Address performance and latency concerns during peak usage
+- Use sentiment insights to prioritize product roadmap improvements
+- Monitor review sentiment continuously to detect early warning signals
+
+## Project Structure
+- Data cleaning & preprocessing
+- Exploratory data analysis
+- Sentiment analysis
+- Visualization & insights
+
+## Author
+Jivak Dongare  
+Data Analyst | SQL | Python | BI | Marketing & Business Analytics
